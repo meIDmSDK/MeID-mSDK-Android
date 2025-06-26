@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="general__error">Chyba</string>
+    <string name="general__ok">OK</string>
+    <string name="general__cancel">Zrušiť</string>
+    <string name="general__continue">Pokračovať</string>
+</resources>

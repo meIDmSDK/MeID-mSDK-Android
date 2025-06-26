@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Dialog theme -->
+    <style name="DialogTheme" parent="@android:style/Theme.Dialog" >
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Dialog animation -->
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/anim_slide_up</item>
+        <item name="android:windowExitAnimation">@anim/anim_slide_down</item>
+    </style>
+
+    <!-- Text Regular -->
+    <style name="RegularText">
+        <item name="android:fontFamily">@font/asap_regular</item>
+    </style>
+
+    <!-- Text Medium -->
+    <style name="MediumText">
+        <item name="android:fontFamily">@font/asap_medium</item>
+    </style>
+
+    <!-- Text Semi Bold -->
+    <style name="SemiBoldText">
+        <item name="android:fontFamily">@font/asap_semi_bold</item>
+    </style>
+
+    <!-- Text Semi Bold -->
+    <style name="BoldText">
+        <item name="android:fontFamily">@font/asap_bold</item>
+    </style>
+
+</resources>

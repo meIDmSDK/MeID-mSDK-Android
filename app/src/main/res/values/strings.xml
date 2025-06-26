@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MeID Sample App</string>
+
+    <string name="main__log_in">Prihlásiť sa</string>
+    <string name="main__log_out">Odhlásiť sa</string>
+
+    <string name="main__log_in__title">Prihlásenie úspešné</string>
+    <string name="main__log_in__message_id_token">ID token: %1$s …</string>
+
+    <string name="main__log_out__title">Odhlásenie</string>
+    <string name="main__log_out__message">Boli ste odhlásený</string>
+
+    <string name="main__error__title">Chyba</string>
+    <string name="main__error__message">Nastala neočakávaná chyba</string>
+
+    <string name="main__ok">Ok</string>
+</resources>

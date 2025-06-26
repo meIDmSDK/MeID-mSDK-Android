@@ -1,0 +1,49 @@
+[versions]
+agp = "8.9.3"
+kotlin = "2.0.21"
+coreKtx = "1.16.0"
+kotlinCoroutinesCore = "1.8.0"
+kotlinCoroutinesAndroid = "1.8.0"
+architectureComponents = "2.9.1"
+lifecycleExtensions = "2.2.0"
+appcompat = "1.7.1"
+material = "1.12.0"
+recyclerView = "1.4.0"
+constraintLayout = "2.2.1"
+koin = "4.0.4"
+retrofit = "2.11.0"
+okhttp = "4.12.0"
+timber = "4.7.1"
+customTabs = "1.8.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+[libraries]
+tools-gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinCoroutinesCore" }
+coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinCoroutinesAndroid" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "architectureComponents" }
+lifecycle-viewmodel-savedstate = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-savedstate", version.ref = "architectureComponents" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "architectureComponents" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "architectureComponents" }
+lifecycle-extensions = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycleExtensions" }
+ui-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+ui-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+ui-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerView" }
+ui-constraintLayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintLayout" }
+koin = { group = "io.insert-koin", name = "koin-android", version.ref = "koin" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-converter = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+okhttp = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
+custom-tabs = { group = "androidx.browser", name = "browser", version.ref = "customTabs" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
